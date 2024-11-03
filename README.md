@@ -3,24 +3,15 @@
 </h1>
 <p align="center"> A web-based card game</p>
 
-# Warning: Backend-down, scores won't be saved.
-
 ## Instructions for running the game locally
 
-1. `cd` into your downloads directory where `exploding-kittens.tar.gz` is located.
-2. Run the command to extract the files
-
-```
-tar -xzvf exploding-kittens.tar.gzip
-```
-
-3. Go to the directory exploding-kittens
+1. Go to the directory exploding-kittens
 
 ```
 cd exploding-kittens
 ```
 
-4. Start the server
+2. Start the server
 
    1. Setting up your environment
       ```
@@ -44,7 +35,7 @@ cd exploding-kittens
       npm start
       ```
 
-5. Start the client
+3. Start the client
    1. Setting up your environment
       ```
       cd ..
@@ -85,7 +76,6 @@ When the game is started there will be a deck of 5 cards ordered randomly. Each 
 
 ## Assumptions
 
-- The game currently doesn't have an any User authentication. You can play as any player you want.
 - On startup the game assign you a Random username, if you don't change/confirm this username your score won't be saved.
 - If you choose a username that doesn't already exists, a new user will created.
 - The games polls the database every 8 seconds to provide real time update in the leaderboard table.

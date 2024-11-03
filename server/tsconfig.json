@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "sourceMap": true,
-    "outDir": "build",
+    "outDir": "./build",
     "rootDir": "src/",
     "allowSyntheticDefaultImports": true,
     "strict": true,

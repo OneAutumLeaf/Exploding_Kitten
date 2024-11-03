@@ -1,3 +1,4 @@
+
 {
   "name": "exploding-kittens-server",
   "version": "1.0.0",
@@ -8,8 +9,9 @@
   },
   "scripts": {
     "start:dev": "nodemon",
-    "build": "npm install && rimraf ./build && tsc",
-    "start": "node build/index.js "
+    "build": "rimraf ./build && tsc",
+    "start": "node build/index.js",
+    "postinstall": "tsc"
   },
   "keywords": [],
   "author": "",
@@ -20,14 +22,14 @@
     "@types/morgan": "^1.9.4",
     "@types/node": "^18.11.9",
     "nodemon": "^2.0.22",
-    "rimraf": "^3.0.2",
-    "ts-node": "^10.9.1",
-    "typescript": "^4.8.4"
+    "ts-node": "^10.9.1"
   },
   "dependencies": {
+    "typescript": "^4.8.4",
+    "rimraf": "^3.0.2",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "express": "^4.21.1",
+    "express": "^4.18.2",
     "helmet": "^6.1.5",
     "morgan": "^1.10.0",
     "redis": "^4.7.0",

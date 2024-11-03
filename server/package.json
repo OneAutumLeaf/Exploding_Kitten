@@ -1,14 +1,13 @@
-
 {
   "name": "exploding-kittens-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Exploding Kittens Game Server",
+  "main": "build/index.js",
   "engines": {
     "node": ">=18"
   },
   "scripts": {
-    "start:dev": "nodemon",
+    "start:dev": "nodemon src/index.ts",
     "build": "rimraf ./build && tsc",
     "start": "node build/index.js",
     "postinstall": "tsc"

@@ -1,5 +1,5 @@
 <h1 align="center">
-   Exploding Kittens :cat:
+   Exploding Kittens
 </h1>
 <p align="center"> A web-based card game</p>
 

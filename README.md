@@ -78,4 +78,4 @@ When the game is started there will be a deck of 5 cards ordered randomly. Each 
 
 - On startup the game assign you a Random username, if you don't change/confirm this username your score won't be saved.
 - If you choose a username that doesn't already exists, a new user will created.
-- The games polls the database every 8 seconds to provide real time update in the leaderboard table.
+- The games polls the database every 8 seconds to provide real time update in the leaderboard table as well.

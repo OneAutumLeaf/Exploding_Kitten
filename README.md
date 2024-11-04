@@ -5,13 +5,17 @@
 
 ## Instructions for running the game locally
 
-1. Go to the directory exploding-kittens
+1. `cd` into your downloads directory where `exploding-kittens.tar.gz` is located.
+2. Run the command to extract the files
+```
+tar -xzvf exploding-kittens.tar.gzip
+```
+3. Go to the directory exploding-kittens
 
 ```
 cd exploding-kittens
 ```
-
-2. Start the server
+4. Start the server
 
    1. Setting up your environment
       ```
@@ -35,7 +39,7 @@ cd exploding-kittens
       npm start
       ```
 
-3. Start the client
+5. Start the client
    1. Setting up your environment
       ```
       cd ..
